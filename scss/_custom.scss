@@ -1,0 +1,28 @@
+// //My btm's Colors
+$turquoise-green-light-01: #5dccbb;
+$turquoise-green-light-02: #58b7a6;
+$turquoise-green-dark-01: #26baa4;
+$turquoise-green-dark-02: #219f89;
+
+$blue-light-01: hsl(233, 98%, 77%);
+$blue-light-02: #838bcc;
+$blue-dark-01: hsl(233, 100%, 69%);
+$blue-dark-02: hsl(233, 65%, 59%);
+
+// White and gray
+$white: #fff;
+$paragraph: hsl(201, 11%, 66%);
+$headers: hsl(210, 10%, 33%);
+$footer: #f5f6f8;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1440px,
+);
+
+// Import Bootstrap
+
+@import "../node_modules/bootstrap/scss/bootstrap";

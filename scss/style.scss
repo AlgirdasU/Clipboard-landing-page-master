@@ -1,0 +1,15 @@
+@use 'custom';
+@use 'base';
+
+// Import the component
+@use 'components/mixins';
+@use 'components/buttons';
+
+
+// Import the sections
+@use 'sections/hero';
+@use 'sections/snippets';
+@use 'sections/access';
+@use 'sections/clipboard';
+@use 'sections/workflow';
+@use 'sections/footer';
