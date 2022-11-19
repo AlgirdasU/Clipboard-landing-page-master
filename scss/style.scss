@@ -1,15 +1,16 @@
-@use 'custom';
-@use 'base';
+@use "custom";
+@use "base";
 
 // Import the component
-@use 'components/mixins';
-@use 'components/buttons';
-
+@use "components/mixins";
+@use "components/buttons";
+@use "components/typography";
+@use "components/utilities";
 
 // Import the sections
-@use 'sections/hero';
-@use 'sections/snippets';
-@use 'sections/access';
-@use 'sections/clipboard';
-@use 'sections/workflow';
-@use 'sections/footer';
+@use "sections/header";
+// @use "sections/snippets";
+// @use "sections/access";
+// @use "sections/clipboard";
+@use "sections/workflow";
+@use "sections/footer";

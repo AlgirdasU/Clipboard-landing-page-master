@@ -1,0 +1,12 @@
+@use "../custom" as *;
+
+.heading-primary, .heading-secondary, .heading-tertiary {
+  color: $heading;
+
+}
+
+.paragraph {
+  color: $paragraph;
+
+  letter-spacing: 0.03rem;
+}

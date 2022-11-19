@@ -1,0 +1,29 @@
+@use "../custom" as *;
+
+.button {
+  &__ios {
+    background-color: $turquoise-green-dark-01;
+    letter-spacing: 0.08rem;
+    padding: 0.8rem 2.3rem;
+    border-bottom: 0.3rem solid $turquoise-green-dark-02;
+    box-shadow: 0 0.5rem 2rem 0rem $turquoise;
+
+    &:hover {
+      background-color: $turquoise-green-light-01;
+      border-bottom: 0.3rem solid $turquoise-green-light-02;
+    }
+  }
+
+  &__mac {
+    background-color: $blue-dark-01;
+    letter-spacing: 0.08rem;
+    padding: 0.8rem 2.3rem;
+    border-bottom: 0.3rem solid $blue-dark-02;
+    box-shadow: 0 0.5rem 2rem 0rem $blue;
+
+    &:hover {
+      background-color: $blue-light-01;
+      border-bottom: 0.3rem solid $blue-light-02;
+    }
+  }
+}

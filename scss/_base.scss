@@ -1,1 +1,22 @@
+@use "custom" as *;
 
+body {
+  font-family: $major-font;
+  font-size: 1.125rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: none;
+  box-shadow:  0 0 0 0.25rem $turquoise-green-light-01;
+  border-radius: 5rem;
+}
+
+::selection {
+  background-color: $primary;
+  color: $white;
+}

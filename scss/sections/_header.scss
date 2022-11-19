@@ -1,0 +1,23 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.header {
+  &__desktop-bg {
+    max-width: 90rem;
+    @include desktopMobileBg;
+  }
+  &__mobile-bg {
+    max-width: 23.43rem;
+    @include desktopMobileBg;
+  }
+
+  &__info {
+    padding-top: 7.4rem;
+  }
+
+  &__logo-box {
+    width: 7.8rem;
+    height: 7.8rem;
+    margin-bottom: 4rem;
+  }
+}

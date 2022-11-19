@@ -1,19 +1,49 @@
 // //My btm's Colors
-$turquoise-green-light-01: #5dccbb;
-$turquoise-green-light-02: #58b7a6;
-$turquoise-green-dark-01: #26baa4;
-$turquoise-green-dark-02: #219f89;
+$turquoise-green-light-01: rgb(93, 204, 187);
+$turquoise-green-light-02: rgb(88, 183, 166);
+$turquoise-green-dark-01: rgb(38, 186, 164);
+$turquoise-green-dark-02: rgb(33, 159, 137);
+
+
 
 $blue-light-01: hsl(233, 98%, 77%);
 $blue-light-02: #838bcc;
 $blue-dark-01: hsl(233, 100%, 69%);
 $blue-dark-02: hsl(233, 65%, 59%);
 
+$primary: $turquoise-green-dark-01;
+$secondary: $blue-dark-01;
+
+// Shadow
+$turquoise: rgb(38, 186, 164, 0.25);
+$blue: rgb(139, 152, 254, 0.25);
+
 // White and gray
 $white: #fff;
 $paragraph: hsl(201, 11%, 66%);
 $headers: hsl(210, 10%, 33%);
-$footer: #f5f6f8;
+$footer-bg: #f5f6f8;
+
+// Hero gradient
+$header-gradient: linear-gradient(
+  to bottom,
+  rgba(0, 0, 0, 0) 50%,
+  transparent 100%
+);
+
+//Fonts color
+$heading: rgb(66, 75, 84);
+$paragraph: #afb3b6;
+$footer-fonts: rgb(82, 83, 85);
+$footer-hover: rgb(30, 216, 188);
+
+$footer-logo: #4C545C;
+
+// Margins
+$margin-btw-sections: 9.3rem;
+
+// Fonts
+$major-font: "Bai Jamjuree", sans-serif;
 
 $container-max-widths: (
   sm: 540px,
@@ -23,6 +53,15 @@ $container-max-widths: (
   xxl: 1440px,
 );
 
-// Import Bootstrap
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+) !default;
 
+$enable-negative-margins: true;
+// Import Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
